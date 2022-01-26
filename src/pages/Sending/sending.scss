@@ -1,0 +1,20 @@
+.sending__top {
+  margin: 0 auto;
+  width: 300px;
+  margin-bottom: 50px;
+
+  &-title {
+    color: grey;
+  }
+}
+
+.sending__main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &-form {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+  }
+}

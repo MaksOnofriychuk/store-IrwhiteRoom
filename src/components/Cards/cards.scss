@@ -1,0 +1,15 @@
+.content__items {
+  display: grid;
+  grid-template-columns: repeat(3, 260px);
+  justify-content: space-around;
+
+  @media (max-width: 1130px) {
+    grid-template-columns: repeat(2, 260px);
+    justify-content: space-around;
+  }
+
+  @media (max-width: 750px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
